@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/transchi"
+        android:id="@+id/imageView5"
+        android:layout_marginBottom="78dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="ChiRoutes is a mobile app designed to keep the children of chicago safe. Using the chicago crime database we are able to add markers where specific crime has recently occured. Based on this data safer routes are generated for chidren who have to walk through the dangerous schools of this big city. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="201dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/route"
+        android:id="@+id/imageView7"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/mess"
+        android:id="@+id/imageView9"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_toStartOf="@+id/imageView7"
+        android:layout_marginEnd="33dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/more"
+        android:id="@+id/imageView10"
+        android:layout_marginStart="24dp"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView7" />
+
+    <TextView
+        android:text='The app also has other features like a message/forum where anyone can port on their own neighborhood to provide others with more information. There is also a "know more" page where people can get more information on the safety of the streets'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
